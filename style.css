@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    width: 1302px;
+    height: 72px;
+    background-color: rgba(140, 10, 13, 1);
+    margin: 0 auto;
+}
+/* .roshen::after {
+    content: "";
+    display: table;
+    clear: both;
+} */
+
+.image-roshen {
+   display: inline-block;
+   width: 177px;
+   height: 41px;
+   margin-left: 68px;
+   margin-top: 16px;
+   margin-bottom: 15px;
+}
+.text {
+    display: inline-block;
+    font-size: 14px;
+    color: #FFE394;
+}
+.p8 {
+    
+}
