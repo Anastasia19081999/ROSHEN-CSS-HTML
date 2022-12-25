@@ -3,8 +3,9 @@ body {
     padding: 0;
 }
 .header {
-    width: 1302px;
-    height: 72px;
+    width: 1300px;
+    height: 70px;
+    border: 1px solid rgba(140, 10, 13, 1);
     background-color: rgba(140, 10, 13, 1);
     margin: 0 auto;
 }
@@ -27,6 +28,248 @@ body {
     font-size: 14px;
     color: #FFE394;
 }
-.p8 {
-    
+.p1 {
+    position: relative;
+    bottom: 22px;
+    right: -160px;
 }
+.p2 {
+    position: relative;
+    right: -182px;
+    bottom: 22px;
+}
+.p3 {
+    position: relative;
+    right: -204px;
+    bottom: 22px;
+}
+.p4 {
+    position: relative;
+    right: -230px;
+    bottom: 22px;
+}
+.p5 {
+    position: relative;
+    right: -253px;
+    bottom: 22px;
+}
+.p6 {
+    position: relative;
+    right: -279px;
+    bottom: 22px;
+}
+.p7 {
+    position: relative;
+    bottom: 18px;
+    right: -367px;
+    width: 26px;
+    height: 18px;
+}
+.p8 {
+    position: relative;
+    bottom: 21px;
+    right: -383px;
+    font-size: 18px;
+}
+.body {
+    background-image: url('./image/Прямоугольник\ 3.png'),url('./image/Слой\ 15.png');
+    width: 1300px;
+    height: 683px;
+    border: 0.5px solid #C4BA9F;
+    margin: 0 auto;
+}
+.image-center {
+    background-image: url('./image/Слой\ 5.png');
+    width: 1170px;
+    height: 335px;
+    margin: 0 auto;
+    border: 3px solid black;
+    margin-top: 25px;
+}
+.h1 {
+    font-size: 60px;
+    font-weight: 100;
+    position: relative;
+    top: -376px;
+    left: 416px;
+}
+.mir {
+    font-size: 60px;
+    font-weight: 50;
+    position: relative;
+    top: -505px;
+    left: 674px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button1 {
+    width: 191px;
+    height: 44px;
+    background-color: rgba(246, 204, 121, 1);
+    border-radius: 12px;
+    text-align: center;
+    font-size: 24px;
+    position: relative;
+    top: -572px;
+    left: 554px;
+}
+.img1 {
+    position: relative;
+    top: -504px;
+    left: -106px;
+    width: 55px;
+    height: 55px;
+}
+.img2 {
+    position: relative;
+    top: -504px;
+    left: 902px;
+    width: 55px;
+    height: 55px;
+}
+.circle {
+    display: inline-block;
+    width: 18px;
+    height: 17px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 50%
+
+}
+.circle1 {
+    position: relative;
+    left: 302px;
+    bottom: 381px;
+}
+.circle2 {
+    background-color: rgba(191, 103, 13, 1);
+    position: relative;
+    left: 307px;
+    bottom: 381px;
+}
+.circle3 {
+    position: relative;
+    left: 312px;
+    bottom: 381px;
+}
+.article2 {
+    display: inline-block;
+}
+.text-2 {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 550;
+    opacity: 1;
+    font-family:'Times New Roman', Times, serif;
+}
+.text-3 {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family:'Times New Roman', Times, serif;
+}
+.h2-1 {
+    width: 269px;
+    height: 64px;
+    position: relative;
+    top: -373px;
+    left: 65px;
+}
+.p1-1 {
+    width: 259px;
+    height: 135px;
+    position: relative;
+    top: -330px;
+    left: 65px;
+}
+.h2-2 {
+    width: 276px;
+    height: 65px;
+    position: relative;
+    top: -576px;
+    left: 364px;
+}
+.p1-2 {
+    width: 254px;
+    height: 158px;
+    position: relative;
+    top: -534px;
+    left: 364px;
+}
+.h2-3 {
+    width: 240px;
+    height: 89px;
+    position: relative;
+    top: -803px;
+    left: 664px;
+}
+.p1-3 {
+    width: 254px;
+    height: 159px; 
+    position: relative;
+    top: -785px;
+    left: 663px;
+}
+
+.h2-4 {
+    width: 249px;
+    height: 63px;
+    position: relative;
+    top: -1055px;
+    left: 956px;
+}
+.p1-4 {
+    width: 276px;
+    height: 133px;
+    position: relative;
+    top: -1011px;
+    left: 956px;
+}
+.footer {
+    width: 1300px;
+    height: 70px;
+    background-color:  rgba(140, 10, 13, 1);
+    border: 1px solid rgba(140, 10, 13, 1);
+    margin: 0 auto;
+}
+.footer-text {
+    display: inline-block;
+    font-size: 14px;
+    color:#FBC86B;
+    margin: 0;
+    padding: 0;
+}
+.nom1 {
+    position: relative;
+    top: 12px;
+    left: 68px;
+}
+.nom2 {
+    position: relative;
+    top: 12px;
+    left: 165px;
+}
+.nom3 {
+    position: relative;
+    top: 12px;
+    left: 309px;
+}
+.nom4 {
+    position: relative;
+    top: 12px;
+    left: 459px;
+}
+.footer-icons1 {
+    width: 28px;
+    height: 28px;
+    position: relative;
+    top: 21px;
+    right: -543px;
+}
+.footer-icons2 {
+    width: 28px;
+    height: 28px;
+    position: relative;
+    top: 21px;
+    right: -556px;
+}
+
