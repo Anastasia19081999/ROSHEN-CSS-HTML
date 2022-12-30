@@ -25,6 +25,7 @@ body {
 }
 .text {
     display: inline-block;
+    text-decoration: none;
     font-size: 14px;
     color: #FFE394;
 }
@@ -152,6 +153,9 @@ body {
 }
 .article2 {
     display: inline-block;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
 }
 .text-2 {
     margin: 0;
@@ -167,62 +171,68 @@ body {
     font-size: 16px;
     font-family:'Times New Roman', Times, serif;
 }
+.div-text {
+    display: inline-block;
+    text-align: center;
+}
 .h2-1 {
-    width: 269px;
+    width: 270px;
     height: 64px;
-    position: relative;
+    margin-left: 65px;
+    /* position: relative;
     top: -373px;
-    left: 65px;
+    left: 65px; */
 }
 .p1-1 {
-    width: 259px;
+    width: 270px;
     height: 135px;
-    position: relative;
+    margin-left: 65px;
+    /* position: relative;
     top: -330px;
-    left: 65px;
+    left: 65px; */
 }
 .h2-2 {
-    width: 276px;
+    width: 290px;
     height: 65px;
-    position: relative;
+    /* position: relative;
     top: -576px;
-    left: 364px;
+    left: 364px; */
 }
 .p1-2 {
-    width: 254px;
+    width: 290px;
     height: 158px;
-    position: relative;
+    /* position: relative;
     top: -534px;
-    left: 364px;
+    left: 364px; */
 }
 .h2-3 {
-    width: 240px;
+    width: 320px;
     height: 89px;
-    position: relative;
+    /* position: relative;
     top: -803px;
-    left: 664px;
+    left: 664px; */
 }
 .p1-3 {
-    width: 254px;
+    width: 320px;
     height: 159px; 
-    position: relative;
+    /* position: relative;
     top: -785px;
-    left: 663px;
+    left: 663px; */
 }
 
 .h2-4 {
-    width: 249px;
+    width: 270px;
     height: 63px;
-    position: relative;
+    /* position: relative;
     top: -1055px;
-    left: 956px;
+    left: 956px; */
 }
 .p1-4 {
-    width: 276px;
+    width: 270px;
     height: 133px;
-    position: relative;
+    /* position: relative;
     top: -1011px;
-    left: 956px;
+    left: 956px; */
 }
 .footer {
     width: 1300px;
@@ -233,6 +243,7 @@ body {
 }
 .footer-text {
     display: inline-block;
+    text-decoration: none;
     font-size: 14px;
     color:#FBC86B;
     margin: 0;
